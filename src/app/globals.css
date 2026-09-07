@@ -1,0 +1,157 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Colors - Nile Modern Editorial Tech */
+  --color-surface: #f4fbf9;
+  --color-surface-dim: #d4dcd9;
+  --color-surface-bright: #f4fbf9;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #eef5f3;
+  --color-surface-container: #e8efed;
+  --color-surface-container-high: #e2eae7;
+  --color-surface-container-highest: #dde4e2;
+  --color-on-surface: #161d1c;
+  --color-on-surface-variant: #404847;
+  --color-inverse-surface: #2b3231;
+  --color-inverse-on-surface: #ebf2f0;
+  --color-outline: #707977;
+  --color-outline-variant: #c0c8c6;
+  --color-surface-tint: #396660;
+
+  /* Primary - Deep Nile Pine */
+  --color-primary: #001f1c;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #003631;
+  --color-on-primary-container: #72a099;
+  --color-inverse-primary: #a0d0c8;
+
+  /* Secondary - Butter Yellow */
+  --color-secondary: #6a5e27;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #f1e09c;
+  --color-on-secondary-container: #6f622b;
+
+  /* Tertiary - Modern Verdigris Teal */
+  --color-tertiary: #001f1c;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #003632;
+  --color-on-tertiary-container: #4ea59c;
+
+  /* Error */
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+
+  /* Extended palette from design doc */
+  --color-primary-deep: #003631;
+  --color-primary-elevated: #03453f;
+  --color-butter: #ffeda8;
+  --color-butter-hover: #fde482;
+  --color-verdigris: #0f766e;
+  --color-obsidian: #111817;
+  --color-alabaster: #f9faf8;
+  --color-surface-subtle: #f0f3ef;
+  --color-surface-card: #ffffff;
+  --color-surface-inverse: #003631;
+  --color-surface-inverse-elevated: #03453f;
+
+  /* Typography */
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  /* Border radius */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 0.75rem;
+  --radius-full: 9999px;
+
+  /* Spacing */
+  --spacing-2xs: 0.25rem;
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 0.75rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4.5rem;
+  --spacing-4xl: 6rem;
+}
+
+@layer base {
+  :root {
+    --background: #f9faf8;
+    --foreground: #161d1c;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+
+  code, pre, .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Utility classes for editorial styles */
+@layer utilities {
+  .editorial-heading {
+    font-family: var(--font-display);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1.14;
+  }
+
+  .editorial-subheading {
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: -0.015em;
+  }
+
+  .label-uppercase {
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    line-height: 16px;
+  }
+
+  .label-lg-uppercase {
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    line-height: 20px;
+  }
+
+  .card-border {
+    border: 1px solid rgba(0, 54, 49, 0.1);
+  }
+
+  .card-border-inverse {
+    border: 1px solid rgba(255, 237, 168, 0.15);
+  }
+
+  .card-shadow {
+    box-shadow: 0 10px 30px -5px rgba(0, 54, 49, 0.08), 0 4px 6px -2px rgba(0, 54, 49, 0.03);
+  }
+
+  .inner-glow {
+    inset: 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+}

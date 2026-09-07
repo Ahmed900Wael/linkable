@@ -1,129 +1,127 @@
 ---
-name: Precision Pine & Tech Ivory
+name: Nile Modern Editorial Tech
 colors:
-  surface: '#ebfef7'
-  surface-dim: '#ccded7'
-  surface-bright: '#ebfef7'
+  surface: '#f4fbf9'
+  surface-dim: '#d4dcd9'
+  surface-bright: '#f4fbf9'
   surface-container-lowest: '#ffffff'
-  surface-container-low: '#e5f8f1'
-  surface-container: '#dff2eb'
-  surface-container-high: '#daece5'
-  surface-container-highest: '#d4e7e0'
-  on-surface: '#0e1e1b'
-  on-surface-variant: '#414846'
-  inverse-surface: '#23342f'
-  inverse-on-surface: '#e2f5ee'
-  outline: '#717976'
-  outline-variant: '#c1c8c5'
-  surface-tint: '#45655c'
-  primary: '#03251f'
+  surface-container-low: '#eef5f3'
+  surface-container: '#e8efed'
+  surface-container-high: '#e2eae7'
+  surface-container-highest: '#dde4e2'
+  on-surface: '#161d1c'
+  on-surface-variant: '#404847'
+  inverse-surface: '#2b3231'
+  inverse-on-surface: '#ebf2f0'
+  outline: '#707977'
+  outline-variant: '#c0c8c6'
+  surface-tint: '#396660'
+  primary: '#001f1c'
   on-primary: '#ffffff'
-  primary-container: '#1b3b34'
-  on-primary-container: '#84a59c'
-  inverse-primary: '#abcec4'
-  secondary: '#40655d'
+  primary-container: '#003631'
+  on-primary-container: '#72a099'
+  inverse-primary: '#a0d0c8'
+  secondary: '#6a5e27'
   on-secondary: '#ffffff'
-  secondary-container: '#bfe8dd'
-  on-secondary-container: '#446a61'
-  tertiary: '#00251f'
+  secondary-container: '#f1e09c'
+  on-secondary-container: '#6f622b'
+  tertiary: '#001f1c'
   on-tertiary: '#ffffff'
-  tertiary-container: '#003d34'
-  on-tertiary-container: '#6aaa9b'
+  tertiary-container: '#003632'
+  on-tertiary-container: '#4ea59c'
   error: '#ba1a1a'
   on-error: '#ffffff'
   error-container: '#ffdad6'
   on-error-container: '#93000a'
-  primary-fixed: '#c7eae0'
-  primary-fixed-dim: '#abcec4'
-  on-primary-fixed: '#00201a'
-  on-primary-fixed-variant: '#2d4d45'
-  secondary-fixed: '#c2ebe0'
-  secondary-fixed-dim: '#a6cfc4'
-  on-secondary-fixed: '#00201b'
-  on-secondary-fixed-variant: '#284d45'
-  tertiary-fixed: '#adf0df'
-  tertiary-fixed-dim: '#92d3c4'
-  on-tertiary-fixed: '#00201b'
-  on-tertiary-fixed-variant: '#005045'
-  background: '#ebfef7'
-  on-background: '#0e1e1b'
-  surface-variant: '#d4e7e0'
+  primary-fixed: '#bcece4'
+  primary-fixed-dim: '#a0d0c8'
+  on-primary-fixed: '#00201d'
+  on-primary-fixed-variant: '#204e49'
+  secondary-fixed: '#f4e29e'
+  secondary-fixed-dim: '#d7c685'
+  on-secondary-fixed: '#221b00'
+  on-secondary-fixed-variant: '#514612'
+  tertiary-fixed: '#9cf2e8'
+  tertiary-fixed-dim: '#80d5cb'
+  on-tertiary-fixed: '#00201d'
+  on-tertiary-fixed-variant: '#00504a'
+  background: '#f4fbf9'
+  on-background: '#161d1c'
+  surface-variant: '#dde4e2'
 typography:
-  display-lg:
-    fontFamily: Plus Jakarta Sans
-    fontSize: 48px
-    fontWeight: '700'
-    lineHeight: 56px
-    letterSpacing: -0.03em
-  display-lg-mobile:
-    fontFamily: Plus Jakarta Sans
-    fontSize: 34px
-    fontWeight: '700'
-    lineHeight: 42px
-    letterSpacing: -0.02em
-  headline-lg:
-    fontFamily: Plus Jakarta Sans
-    fontSize: 32px
+  display-hero:
+    fontFamily: Playfair Display
+    fontSize: 56px
     fontWeight: '600'
-    lineHeight: 40px
+    lineHeight: 64px
     letterSpacing: -0.02em
+  display-hero-mobile:
+    fontFamily: Playfair Display
+    fontSize: 38px
+    fontWeight: '600'
+    lineHeight: 44px
+    letterSpacing: -0.015em
+  headline-lg:
+    fontFamily: Playfair Display
+    fontSize: 40px
+    fontWeight: '600'
+    lineHeight: 48px
+    letterSpacing: -0.015em
   headline-lg-mobile:
-    fontFamily: Plus Jakarta Sans
-    fontSize: 26px
+    fontFamily: Playfair Display
+    fontSize: 28px
     fontWeight: '600'
     lineHeight: 34px
-    letterSpacing: -0.015em
   headline-md:
-    fontFamily: Plus Jakarta Sans
-    fontSize: 24px
-    fontWeight: '600'
-    lineHeight: 32px
-    letterSpacing: -0.01em
+    fontFamily: Playfair Display
+    fontSize: 28px
+    fontWeight: '500'
+    lineHeight: 36px
   headline-sm:
     fontFamily: Plus Jakarta Sans
-    fontSize: 18px
-    fontWeight: '600'
-    lineHeight: 26px
-  body-lg:
+    fontSize: 20px
+    fontWeight: '700'
+    lineHeight: 28px
+  body-xl:
     fontFamily: Plus Jakarta Sans
-    fontSize: 16px
+    fontSize: 18px
     fontWeight: '400'
-    lineHeight: 26px
+    lineHeight: 28px
   body-md:
     fontFamily: Plus Jakarta Sans
-    fontSize: 14px
+    fontSize: 15px
     fontWeight: '400'
-    lineHeight: 22px
+    lineHeight: 24px
   body-sm:
     fontFamily: Plus Jakarta Sans
-    fontSize: 12px
+    fontSize: 13px
     fontWeight: '400'
-    lineHeight: 18px
-  code-lg:
-    fontFamily: JetBrains Mono
+    lineHeight: 20px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
     fontSize: 14px
-    fontWeight: '500'
-    lineHeight: 22px
-  code-sm:
-    fontFamily: JetBrains Mono
-    fontSize: 12px
-    fontWeight: '400'
-    lineHeight: 18px
-  badge-label:
-    fontFamily: JetBrains Mono
-    fontSize: 11px
     fontWeight: '600'
-    lineHeight: 14px
-    letterSpacing: 0.04em
+    lineHeight: 20px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 16px
+    letterSpacing: 0.06em
+  code-snippet:
+    fontFamily: JetBrains Mono
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 20px
 rounded:
-  sm: 0.5rem
-  DEFAULT: 1rem
-  md: 1.5rem
-  lg: 2rem
-  xl: 3rem
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
   full: 9999px
 spacing:
-  space-3xs: 0.125rem
   space-2xs: 0.25rem
   space-xs: 0.5rem
   space-sm: 0.75rem
@@ -131,83 +129,104 @@ spacing:
   space-lg: 1.5rem
   space-xl: 2rem
   space-2xl: 3rem
-  space-3xl: 4rem
-  gutter-desktop: 1.5rem
-  margin-desktop: 3rem
+  space-3xl: 4.5rem
+  space-4xl: 6rem
   gutter-mobile: 1rem
-  margin-mobile: 1.25rem
+  gutter-tablet: 1.5rem
+  gutter-desktop: 2rem
+  container-max-width: 1280px
 ---
 
 ## Brand & Style
 
-This design system targets researchers, academic innovators, engineering leads, and technical founders. The visual style balances institutional academic rigor with modern high-performance developer tooling—reminiscent of bespoke scientific publishing platforms crossed with high-fidelity IDEs.
+This design system embodies an ambitious, high-craft editorial ethos fused with contemporary software engineering precision. Built for emerging Egyptian technologists moving past theoretical rotes to tangible, production-ready software systems, the aesthetic strikes a deliberate contrast between academic authority and digital kinetic energy.
 
-The core aesthetic combines **Corporate / Modern Precision** with understated **Tactile Nuance**:
-- **Atmosphere:** Cool, disciplined, and hyper-focused. Low visual noise with intentional focus zones.
-- **Rhythm:** Dense, data-rich layouts relieved by generous atmospheric padding in reading spaces.
-- **Character:** Authoritative forest tones anchored by soft sage-grey surfaces, preventing clinical sterility while maintaining mathematical clarity.
+The aesthetic blends **Modern Editorial** with **High-Contrast Tech**:
+- **Editorial Pedigree**: Evoking prestigious intellectual journals, classic print manifests, and disciplined architectural poise.
+- **Electric Precision**: Dynamic interactive surfaces, modular engineering metrics, and high-visibility markers that demand active engagement.
+- **Atmosphere**: Deep, resonant pine-emerald tones evoke stability, grounded ambition, and prestige; illuminated by luminous warm butter yellow that commands attention for real-world milestones, live cohort launches, and verified code shipping.
 
 ## Colors
 
-The palette leverages high-contrast deep forest charcoals against atmospheric mineral sage tints:
+The palette balances monumental deep tones with high-contrast radiant focal points.
 
-- **Primary (`#1B3B34`):** Forest Slate. Used for primary headers, authoritative actions, key iconography, and anchor components.
-- **Secondary (`#224840`):** Deep Pine. Used for button containers, interactive hover fills, and dark-mode surface grouping.
-- **Tertiary / Active Mint (`#5B9B8D`):** Direct feedback states, active tabs, inline indicators, and code highlights.
-- **Soft Mints (`#D3E4DE`, `#A8C9BF`):** Badge backgrounds, pill fills, subtle focus halos, and secondary border strokes.
-- **Urgency / Alert (`#E06D53`):** Warm Terracotta / Coral. Reserved exclusively for mission-critical alerts, SOS signals, merge conflict warnings, and irreversible destructive actions.
-- **Canvas (`#F4F7F6`):** Studio Soft Sage-Grey. Eliminates pure-white eye strain across intensive analytical workflows. Cards and panels use `#FFFFFF` to pop forward cleanly.
+- **Primary (`#003631`)**: Deep Nile Pine. Serves as the primary brand signature, dominant button background, immersive hero containers, high-emphasis cards, and authority headers.
+- **Secondary (`#FFEDA8`)**: Butter Yellow. High-impact accent used for badge callouts, primary conversion highlights, code review endorsements, active project flags, and energetic focus states against dark surfaces.
+- **Tertiary (`#0F766E`)**: Modern Verdigris Teal. Provides connective tissue across interactive hyperlinks, progress meters, interactive code branch badges, and subtle border accents.
+- **Neutral Dark (`#111817`)**: Obsidian Slate. Anchors text hierarchy, technical consoles, monospace code snippets, and deep border structures.
+- **Neutral Light Canvas (`#F9FAF8`)**: Alabaster Bone. An off-white background that prevents digital fatigue, creating a tactile editorial feel that distinguishes it from sterile white tech dashboards.
+- **Surface Tiers**:
+  - `surface-base`: `#F9FAF8`
+  - `surface-subtle`: `#F0F3EF`
+  - `surface-card`: `#FFFFFF`
+  - `surface-inverse`: `#003631`
+  - `surface-inverse-elevated`: `#03453F`
 
 ## Typography
 
-Typography establishes an unyielding sense of authority and structure:
+The type system is structured around an intentional juxtaposition:
+1. **Editorial Display Authority (`Playfair Display`)**: Used deliberately for primary headlines, motivational manifesto statements, and cohort track titles. It elevates project milestones to academic honors and historic achievements.
+2. **Product & Systems Engine (`Plus Jakarta Sans`)**: Applied across body narrative, data telemetry, course matrices, and action triggers. Its geometric proportions ensure clarity during complex code-learning flows.
+3. **Monospace Terminal (`JetBrains Mono`)**: Embedded strictly for terminal paths, commit hashes, code tokens, and architecture configuration specs.
 
-- **Plus Jakarta Sans** guides human conversation, navigation, card titling, and long-form research text. Tight tracking on headings creates cohesive, magazine-like authority.
-- **JetBrains Mono** surfaces all technical taxonomy, including metadata tags, verification labels, metrics, timestamps, UUIDs, and inline code blocks.
-- Numeric representations in tables, dashboards, and profile stats must always set `font-variant-numeric: tabular-nums` to maintain vertical decimal alignment across dynamic data sets.
+Letterforms in headline titles should remain natural or slightly compressed (`-0.02em`), while small UI labels leverage uppercase styling with positive tracking (`0.06em`) to command attention.
 
 ## Layout & Spacing
 
-The layout is built on an **8pt modular baseline grid** with an optional 4pt subgrid for compact data density.
+This design system uses a structured 12-column layout on desktop, transitioning to an 8-column layout on tablet and a 4-column fluid layout on mobile.
 
-- **Grid Architecture:** Desktop views operate on a 12-column grid with a maximum content container of `1280px`. Breakpoints are:
-  - **Desktop:** `1024px+` (12 columns, 24px gutters, 48px margins)
-  - **Tablet:** `768px - 1023px` (8 columns, 16px gutters, 24px margins)
-  - **Mobile:** `< 768px` (4 columns, 16px gutters, 20px margins)
-- **Reflow Rules:** Left-hand contextual rails (filters, taxonomy selectors) collapse into a bottom-drawer modal on mobile. Research/engineering split panes (paper view + code/data view) default to side-by-side on desktop, stacking into sequential tabs on screens under 1024px.
+- **Grid Geometry**: Maximum desktop width of `1280px` centered with variable fluid gutters. 
+  - **Desktop (>= 1024px)**: 12 columns, `32px` gutter, `32px` minimum lateral margin.
+  - **Tablet (768px – 1023px)**: 8 columns, `24px` gutter, `24px` lateral margin.
+  - **Mobile (< 768px)**: 4 columns, `16px` gutter, `16px` lateral margin.
+- **Rhythm & Structure**: Spacing relies strictly on multiples of `8px` (`0.5rem`), with `4px` (`0.25rem`) reserved for tight internal badge and micro-element alignments. Section vertical boundaries breathe with generous `space-3xl` (`72px`) and `space-4xl` (`96px`) gaps to preserve the curated editorial tone.
 
 ## Elevation & Depth
 
-Visual hierarchy uses **low-contrast outlines combined with ambient mineral shadows**, avoiding generic grey dropshadows:
+This system avoids generic drop-shadow heavy layers in favor of crisp architectural delineations, intentional contrast framing, and subtle ambient groundings:
 
-- **Level 0 (Base Canvas):** `#F4F7F6` backdrop with no shadow.
-- **Level 1 (Card & Content Blocks):** `#FFFFFF` fill bounded by a crisp 1px stroke of `rgba(27, 59, 52, 0.08)`. Shadow: `0 1px 3px rgba(18, 34, 30, 0.04), 0 4px 12px rgba(18, 34, 30, 0.03)`.
-- **Level 2 (Hovered Cards, Dropdowns, Flyouts):** Stroke tint increases to `rgba(27, 59, 52, 0.16)`. Shadow: `0 8px 24px -4px rgba(18, 34, 30, 0.08), 0 2px 6px -1px rgba(18, 34, 30, 0.04)`.
-- **Level 3 (Modals, Technical Drawers):** Shadow: `0 20px 48px -8px rgba(18, 34, 30, 0.16)`. Accompanied by a background scrim with `backdrop-filter: blur(4px)` and background `rgba(18, 34, 30, 0.4)`.
+1. **Editorial Boundary Rules (Primary Layering)**:
+   - Surfaces are primarily differentiated through structural hairline strokes (`1px solid rgba(0, 54, 49, 0.1)` on light backgrounds or `1px solid rgba(255, 237, 168, 0.15)` on dark green canvases).
+2. **Elevated Cards & Interactive Surfaces**:
+   - Depth is achieved via crisp surface shift rather than soft blur: `background: #FFFFFF` seated atop `#F0F3EF`.
+   - Optional low-spread ambient shadow for floating elements (modals, dropdowns):
+     `box-shadow: 0 10px 30px -5px rgba(0, 54, 49, 0.08), 0 4px 6px -2px rgba(0, 54, 49, 0.03)`.
+3. **High-Impact Inverted Plinths**:
+   - Hero feature cards and project sprint boards use deep canvas `#003631` bordered with a delicate inner ambient glow: `inset 0 1px 0 rgba(255, 255, 255, 0.1)`.
 
 ## Shapes
 
-The design system employs a **dual-geometry rule** to visually distinguish actionable tags from structural containers:
+The geometric vocabulary prioritizes disciplined architectural contours over playful soft bubbles. 
 
-- **Interactive Pills & Badges:** Use complete pill radiuses (`9999px` / `25px`) for buttons, filter chips, status badges, and user metric tags. This provides tactile affordance and humanizes the technical environment.
-- **Structural Containers:** Content cards, code IDE blocks, analytical modules, and modal containers use `rounded-xl` (12px to 16px). This preserves data density and prevents wasted corner space in technical layouts.
+- **Corner Radius Scale**:
+  - `rounded-xs`: `2px` (code blocks, precision tag markers)
+  - `rounded-sm`: `4px` (form inputs, default action buttons, table cells)
+  - `rounded-md`: `8px` (standard project cards, repository containers)
+  - `rounded-lg`: `12px` (major modality dialogues, preview canvases)
+  - `rounded-full`: Used exclusively for status indicators, live deployment pings, and author avatars.
+- **Structural Integrity**: Inputs, cards, and buttons maintain crisp `4px` to `8px` radiuses (`level 1` soft precision), echoing technical schematics and fine editorial framing.
 
 ## Components
 
 ### Buttons
-- **Primary Pill:** Full pill radius (`border-radius: 9999px`), `#224840` background, `#FFFFFF` text, font weight 600. Hover transitions to `#1B3B34` with an inner border highlight `inset 0 0 0 1px rgba(211, 228, 222, 0.25)`.
-- **Secondary / Ghost Pill:** Full pill radius, transparent background, 1px border of `#A8C9BF`, text color `#1B3B34`. Hover fills with `rgba(211, 228, 222, 0.35)`.
-- **Urgent / SOS Action:** Full pill radius, `#E06D53` background with crisp white text. Active state darkens to `#C8573E`.
+- **Primary Action**: Solid `#003631` fill with `#FFEDA8` butter yellow typography, `4px` radius, subtle `1px` border in `#003631`. On hover: `#03453F` background with accelerated 150ms ease-out transitions.
+- **Secondary (High Visibility / Hero Callout)**: Solid `#FFEDA8` fill with `#003631` bold typography. On hover: `#FDE482`.
+- **Tertiary / Ghost**: Transparent fill, `1px solid rgba(0, 54, 49, 0.2)` border, `#003631` text. On dark green containers: `1px solid rgba(255, 237, 168, 0.3)` border and `#FFEDA8` text.
 
-### Badges & Verification Tags
-- **Skill Tags:** Pill-shaped, JetBrains Mono font (`11px`), padded `4px 12px`. Background `#D3E4DE` at 50% opacity, border `1px solid #A8C9BF`, text `#1B3B34`.
-- **LinkedIn Verified:** Pill shape, background `#E8F0FE`, border `1px solid #A8C7FA`, icon in `#0A66C2`, text `#0A66C2`, label in uppercase tracked mono.
-- **CV Verified:** Pill shape, background `rgba(91, 155, 141, 0.12)`, border `1px solid #5B9B8D`, icon checkmark in `#1B3B34`, text `#1B3B34`.
+### Chips & Badges
+- **Editorial Category Badge**: `#F0F3EF` background, `#003631` text, uppercase tracking, `4px` radius.
+- **Sprint / Status Chip**: `#003631` background, `#FFEDA8` text, accompanied by an animated `6px` circular pulse indicator signaling active build status.
 
-### Input Fields & Controls
-- **Inputs:** 10px rounded corners, `#FFFFFF` background, 1px stroke of `rgba(27, 59, 52, 0.2)`. On focus: stroke shifts to `#5B9B8D` with a subtle 3px outer glow in `rgba(91, 155, 141, 0.2)`. Monospace placeholder support for query-based search fields.
-- **Checkboxes & Radios:** Forest slate borders (`#1B3B34`), filling with `#224840` upon selection and displaying an ivory/white checkmark.
+### Cards
+- **Curriculum & Project Card**: Surface `#FFFFFF`, hairline border `1px solid #E2E7E1`, `8px` radius, `24px` internal padding. Features high-contrast editorial serif headers, accompanied by monospace meta labels indicating stack requirements (e.g., `POSTGRESQL`, `GO`, `REACT`).
+- **Dark Masterclass Panel**: Deep canvas `#003631` with `#F9FAF8` body text and `#FFEDA8` accents.
 
-### Cards & Code Blocks
-- **Research / Profile Cards:** Level 1 elevation, `#FFFFFF` background, subtle `#1B3B34` tinted border. Headers display author identity paired with pill verification tags aligned to the top-right.
-- **Code Panes & Terminal Previews:** Solid `#12221E` background with `#F4F7F6` monospace text. Status headers feature custom window controls in `#224840` and active file path indicators styled with `#5B9B8D`.
+### Form Inputs
+- **Text & Select Fields**: Surface `#FFFFFF`, `1px solid #D5DDD3` border, `4px` radius, `12px 16px` padding. Focus state features a crisp `2px solid #003631` ring with an offset of `1px`. Labels are rendered in `label-lg` with high visual clarity.
+
+### Checkboxes & Radios
+- **Selection Controls**: Square `18px` boxes with `3px` radius. Checked state displays `#003631` fill with a sharp `#FFEDA8` vector checkmark.
+
+### Specialized Tech Education Elements
+- **Terminal & Code Inspector**: `#111817` background with `#003631` header toolbar, `#FFEDA8` line numbers, and `#F9FAF8` syntax runs.
+- **Submission Milestone Bar**: Stepped progress tracker utilizing `#0F766E` active connecting lines and `#FFEDA8` node rings.
